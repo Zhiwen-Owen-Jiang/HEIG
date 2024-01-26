@@ -1,2 +1,4 @@
-# imaging_genetics
- Statistical framework for imaging genetic analysis
+# A statistical framework for efficient imaging-genetic analysis 
+This framework introduces raw imaging data into genome-wide association analysis (GWAS). Due to extremely high dimension of both imaging and genetic data, we proposed to use functional principal component analysis (fPFA) to extract low-dimension representations (LDRs) for images, and only the GWAS on these LDRs are required to be conducted. We demonstrated that the summary statistics of LDRs are adequate to do all downstream analysis for the original images, such as heritability and genetic correlation analysis. Compared with conducting GWAS for each grid point in image, our approach can save both computational time and storage up to hundreds of times. 
+
+Currently this project is still on going, and I will actively update the programs in the following weeks.
